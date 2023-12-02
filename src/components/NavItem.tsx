@@ -23,6 +23,7 @@ const NavItem = ({ category, handleOpen, isOpen, isAnyOpen }: NavItemProps) => {
         <Button
           className="gap-1.5"
           onClick={handleOpen}
+          // onMouseEnter={handleOpen}
           variant={isOpen ? "secondary" : "ghost"}
         >
           {category.label}
